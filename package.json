@@ -1,0 +1,26 @@
+{
+  "name": "new-npm-versions",
+  "version": "0.0.1",
+  "description": "I tweet when one of my owner's packages is updated on npm.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "twitter": "1.7.1"
+  },
+  "engines": {
+    "node": "14"
+  },
+  "repository": "github:qubyte/new-npm-versions-bot",
+  "license": "MIT",
+  "keywords": [
+    "glitch",
+    "npm",
+    "versions",
+    "twitter",
+    "bot"
+  ]
+}
